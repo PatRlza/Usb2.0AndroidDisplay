@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Баннер для лаунчера ТВ: градиент и тот же значок -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:color="#FF4F46E5" android:offset="0.0" />
+                <item android:color="#FF9333EA" android:offset="0.5" />
+                <item android:color="#FF06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:translateX="106"
+        android:translateY="36">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M34,36 h40 a4,4 0 0 1 4,4 v24 a4,4 0 0 1 -4,4 h-40 a4,4 0 0 1 -4,-4 v-24 a4,4 0 0 1 4,-4 z"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="4" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M46,76 h16"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="4" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M49,45 l13,7 l-13,7 z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M66,56 h10 a2,2 0 0 1 2,2 v14 a2,2 0 0 1 -2,2 h-10 a2,2 0 0 1 -2,-2 v-14 a2,2 0 0 1 2,-2 z" />
+        <path
+            android:fillColor="#FF7C3AED"
+            android:pathData="M68,59 h6 v9 h-6 z" />
+    </group>
+</vector>
